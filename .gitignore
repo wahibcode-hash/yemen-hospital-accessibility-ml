@@ -1,0 +1,14 @@
+# Local secrets and generated files
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
+outputs/
+catboost_info/
+*.log
+.DS_Store
