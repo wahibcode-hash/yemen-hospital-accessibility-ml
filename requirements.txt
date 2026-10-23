@@ -1,4 +1,4 @@
-# Reproducibility requirements
+# التبعيات المستعملة في إعادة تدريب المشروع
 numpy>=1.24,<3
 pandas>=2.0,<3
 scipy>=1.10,<2

@@ -1,0 +1,28 @@
+﻿feature,arabic_explanation,origin
+total_pop,إجمالي سكان المديرية,FE-INT
+hospitals_count,عدد المستشفيات في المديرية,FE-INT
+primary_healthcare_count,عدد مرافق الرعاية الصحية الأولية,FE-INT
+rural_pop_perc,النسبة المئوية لسكان الريف,FE-INT
+area_km2,مساحة المديرية بالكيلومتر المربع,FE-INT
+pop_density,عدد السكان لكل كيلومتر مربع,FE-INT
+hospitals_per_100k,المستشفيات لكل 100 ألف نسمة,FE-INT
+primary_healthcare_per_100k,مراكز الرعاية لكل 100 ألف نسمة,FE-INT
+log_total_pop,لوغاريتم 1 + عدد السكان,FE-INT
+RAI_total_pop,مؤشر الوصول الريفي RAI,FE-INT
+served_rural_pct,النسبة الريفية المرجّح توفر الوصول فيها,FE-INT
+unserved_rural_pct,النسبة الريفية المرجّح عدم توفر الوصول فيها,FE-INT
+road_x_hospitals_density,تفاعل مؤشر الطرق مع كثافة المستشفيات السكانية,FE-INT
+road_x_healthcare_density,تفاعل مؤشر الطرق مع كثافة الرعاية الصحية,FE-INT
+hospital_present,وجود مستشفى واحد على الأقل (0/1),FE-INT
+log_pop_density,لوغاريتم 1 + الكثافة السكانية,FE-INT
+healthcare_facilities_per_km2,كثافة مرافق الرعاية على المساحة,FE-INT
+hospitals_per_km2,عدد المستشفيات لكل كيلومتر مربع,FE-INT
+facility_density_x_rural,تفاعل كثافة المرافق مع نسبة الريف,FE-INT
+facility_density_x_road,تفاعل كثافة المرافق مع مؤشر الطرق,FE-INT
+hospital_presence_x_rural_x_road,تفاعل وجود مستشفى × الريف × الطرق,FE-INT
+osm_motor_road_km_per_km2,كيلومترات الطرق القابلة للمركبات لكل كم² وفق OSM,OSM/GEO8
+osm_motor_road_km_per_10k_pop,كيلومترات الطرق القابلة للمركبات لكل 10 آلاف نسمة وفق OSM,OSM/GEO8
+osm_major_road_share,حصة الطرق الرئيسية ضمن الطرق المرصودة وفق OSM,OSM/GEO8
+osm_track_road_share,حصة المسارات الترابية ضمن الطرق المرصودة وفق OSM,OSM/GEO8
+osm_mapped_hospitals_25km_centroid,عدد المستشفيات المرسومة قرب مركز المديرية في نطاق 25 كم,OSM/GEO8
+osm_mapped_hospitals_50km_centroid,عدد المستشفيات المرسومة قرب مركز المديرية في نطاق 50 كم,OSM/GEO8

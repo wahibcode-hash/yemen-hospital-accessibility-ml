@@ -1,7 +1,5 @@
-# Kaggle notebook
+# Kaggle Notebook — الخطوة اللاحقة
 
-The Arabic defense notebook is kept as a separate, already-tested deliverable.
+ملف دفتر المناقشة السابق **لم يُعدَّل** في هذه المرحلة، كما اتفقنا.
 
-Once all repository data files have been pushed, update the notebook to download input files through GitHub's `raw.githubusercontent.com` URLs and verify each file's SHA-256 hash before training.
-
-Do not interpret R² as percentage classification accuracy. EXP_0012 is an exploratory candidate.
+بعد إنشاء مستودع GitHub العام وحصولنا على رابطه الحقيقي، سنعدّل الدفتر ليستورد الملفات من روابط `raw.githubusercontent.com` الخاصة بهذا المستودع، مع التحقق من SHA-256، وإمكانية التحميل من Kaggle Dataset كخيار احتياطي. لا يوجد رابط GitHub عام متحقق منه حاليًا.

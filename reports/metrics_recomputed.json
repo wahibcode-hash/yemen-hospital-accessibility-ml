@@ -1,0 +1,36 @@
+{
+  "project": "Yemen Hospital Accessibility Prediction Model",
+  "status": "EXPLORATORY_NOT_INDEPENDENT",
+  "n_districts": 335,
+  "n_governorates": 22,
+  "n_features": 27,
+  "EXP_0008_retrained": {
+    "MAE_pp": 13.45094577387978,
+    "RMSE_pp": 18.277795602367974,
+    "R2": 0.7227846753999647
+  },
+  "EXP_0012_retrained": {
+    "MAE_pp": 12.888233844497057,
+    "RMSE_pp": 18.17657201633623,
+    "R2": 0.7258466451060058
+  },
+  "reference_historical_EXP_0008": {
+    "MAE_pp": 13.45094577,
+    "RMSE_pp": 18.2777956,
+    "R2": 0.7227846754
+  },
+  "reference_historical_EXP_0012": {
+    "MAE_pp": 12.88823384,
+    "RMSE_pp": 18.17657202,
+    "R2": 0.7258466451
+  },
+  "selected_inner_alphas": {
+    "1": 0.35,
+    "2": 0.65,
+    "3": 0.5,
+    "4": 0.75,
+    "5": 0.5
+  },
+  "final_deployment_blend_weight": 0.75,
+  "caveat": "Target is GAIA modeled 2030 access; folds reused during development, not an independent final test."
+}

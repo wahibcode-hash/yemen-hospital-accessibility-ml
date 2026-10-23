@@ -1,0 +1,50 @@
+المرجع — طية 1: MAE=12.4791 pp
+المرجع — طية 2: MAE=12.6764 pp
+المرجع — طية 3: MAE=15.9899 pp
+المرجع — طية 4: MAE=10.6559 pp
+المرجع — طية 5: MAE=15.3501 pp
+التحسين — طية 1: alpha=0.35, MAE=12.6385 pp
+التحسين — طية 2: alpha=0.65, MAE=11.3514 pp
+التحسين — طية 3: alpha=0.50, MAE=14.7057 pp
+التحسين — طية 4: alpha=0.75, MAE=10.2085 pp
+التحسين — طية 5: alpha=0.50, MAE=15.4077 pp
+{
+  "status": "EXPLORATORY_NOT_INDEPENDENT",
+  "EXP_0008": {
+    "MAE_pp": 13.45094577387978,
+    "RMSE_pp": 18.277795602367974,
+    "R2": 0.7227846753999647
+  },
+  "EXP_0012": {
+    "MAE_pp": 12.888233844497057,
+    "RMSE_pp": 18.17657201633623,
+    "R2": 0.7258466451060058
+  },
+  "folds": [
+    {
+      "fold": 1,
+      "selected_alpha": 0.35,
+      "n_test": 66
+    },
+    {
+      "fold": 2,
+      "selected_alpha": 0.65,
+      "n_test": 67
+    },
+    {
+      "fold": 3,
+      "selected_alpha": 0.5,
+      "n_test": 66
+    },
+    {
+      "fold": 4,
+      "selected_alpha": 0.75,
+      "n_test": 66
+    },
+    {
+      "fold": 5,
+      "selected_alpha": 0.5,
+      "n_test": 70
+    }
+  ]
+}
