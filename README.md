@@ -1,5 +1,9 @@
 # نموذج التنبؤ بالوصول إلى المستشفيات في اليمن
 
+**للتسليم الآن: [ابدأ من ملف الاستلام](HANDOFF_2026-11-07_AR.md).**
+
+**حدود مهمة:** المؤشر يخص الوصول إلى **مستشفى خلال ساعة** لا مركز PHC؛ وتوجد [مقارنة وتفسير لاختلاف نتائج التجارب](docs/RESULTS_PROVENANCE_AR.md).
+
 **Yemen Hospital Accessibility Prediction Model**
 
 > مشروع ختامي لدورة تعلم الآلة ضمن برنامج إعداد مهندسي الذكاء الاصطناعي — مركز تطوير التعليم التقني والبحث العلمي، ذمار.  
@@ -29,7 +33,7 @@ yemen-hospital-accessibility-ml/
 ├── src/                # كود التدريب والتنبؤ الحقيقي
 ├── scripts/            # فحص شامل لسلامة الملفات
 ├── docs/               # وثائق المشروع والواجهة التفاعلية GitHub Pages
-├── notebooks/          # ملاحظة عن تعديل Kaggle المؤجل
+├── notebooks/          # دفاتر تدريب ومناقشة باللغة العربية
 └── tests/              # اختبارات صحة البيانات وعزل المحافظات
 ```
 
@@ -63,3 +67,10 @@ python -m src.train_evaluate
 - [تعديل Kaggle لاحقًا لجلب البيانات من GitHub](docs/FUTURE_KAGGLE_FROM_GITHUB_AR.md)
 
 **البيانات:** مؤشر GAIA من HeiGIT/HDX وفق شروط CC BY-SA المعلنة للمجموعة؛ ميزات OpenStreetMap تحت أحكام ODbL مع إسناد © OpenStreetMap contributors. لا تُطبّق أي رخصة برمجيات كلية على بيانات الأطراف الثالثة. راجع المستند المختص قبل النشر.
+
+## ملفات المناقشة والتسليم الجديدة (7 نوفمبر 2026)
+- [دليل المناقشة التفاعلي](docs/DISCUSSION_GUIDE_AR.html)
+- [دفتر مناقشة Jupyter الموسع](notebooks/Yemen_Hospital_EXP_0012_Interactive_Defense_AR.ipynb)
+- [قائمة فحص التسليم](docs/DELIVERY_CHECKLIST_AR.md)
+
+هذا تحديث توثيقي؛ لم تتغير البيانات أو النماذج أو صفحة docs/index.html ولم تعاد التجارب في تاريخ التحديث.
